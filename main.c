@@ -74,19 +74,3 @@ int main(void) {
 	free(arr);
 	return 0;
 }
-
-/*int knot;
-
-	printf("We take graph from file graphic.txt. It must be full before beginning of this programm!");
-	printf("Write the number of knots: ");
-	if (scanf("%d", &knot) != 1)
-		exit(1);
-
-	char* str = (char*)malloc(knot * sizeof(char));
-
-
-	FILE* f = fopen("graphic.txt", "r");
-
-
-	fclose(f);
-	return 0;*/
