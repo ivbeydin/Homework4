@@ -28,6 +28,7 @@ void find_MultEdges(int** arr, int knot, int edge, char word) {
 				if (con > 2) {
 					printf("Edge %c - multiple edges between knots %d and %d\n", word + i, n + 1, k + 1);
 					help_arr[i] = 1;
+					con = 0;
 				}
 			}
 			con = 0;
