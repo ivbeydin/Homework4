@@ -61,7 +61,7 @@ int main(void) {
 	for (int i = 0; i < knot; i++) {
 		printf(" %d|", i + 1);
 		for (int j = 0; j < edge; j++) {
-			if (arr[i] == NULL)
+			if (arr[j] == NULL)
 				exit(1);
 			if (scanf("%d", &arr[j][i]) != 1)
 				exit(1);
