@@ -13,7 +13,7 @@ void find_MultEdges(int** arr, int knot, int edge, char word) {
 	for (int i = 0; i < edge; i++) {
 		if (help_arr[i] != 1) {
 			for (int j = 0; j < knot; j++) {
-				if (arr[i][j] == 1) {
+				if (arr[i][j] == 1 && help_arr[i] != 1) {
 					con++;
 					k = n;
 					n = j;
